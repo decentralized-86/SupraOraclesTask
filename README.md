@@ -1,66 +1,22 @@
-## Foundry
+# Solidity Programming Interview 1
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Welcome to the repository for the Solidity Programming Interview 1. This repository showcases a series of Solidity smart contracts designed for various decentralized applications as part of a coding interview process.
 
-Foundry consists of:
+## Directory Structure
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- `contracts/`: Solidity smart contract source files.
+- `test/`: Test scripts for smart contracts to ensure correct behavior.
+- `docs/`: Documentation detailing design choices, contract usage, and examples.
+- `scripts/`: Deployment and interaction scripts for the contracts.
 
-## Documentation
+## Getting Started
 
-https://book.getfoundry.sh/
+To get started with these contracts, clone the repository and install dependencies:
 
-## Usage
+```bash
+git clone [https://github.com/decentralized-86/SupraOraclesTask]
+cd [SupraOraclesTask]
 
-### Build
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+# Documentation
+For a deep dive into the contracts, refer to the docs/ directory. The documentation covers the rationale behind design decisions and provides context for the smart contract capabilities.
